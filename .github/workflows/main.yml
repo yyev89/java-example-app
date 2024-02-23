@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - jenk
   workflow_dispatch:
 
 jobs:
@@ -21,8 +20,6 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          ref: jenk
 
       - name: Show directory
         run: 'pwd'
