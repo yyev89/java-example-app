@@ -28,7 +28,7 @@ jobs:
         run: 'ls -al'
 
       - name: Install Dependencies
-        run: 'mvn complile'
+        run: 'mvn compile'
 
       - name: Build application
         run: 'mvn package -DskipTests'
