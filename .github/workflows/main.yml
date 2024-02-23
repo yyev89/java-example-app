@@ -2,7 +2,7 @@ name: Continious Integration
 on:
   push:
     branches:
-      - main
+      - master
       - jenk
   workflow_dispatch:
 
